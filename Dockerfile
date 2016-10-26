@@ -8,7 +8,6 @@ FROM ubuntu
 MAINTAINER Maintaner YourName
 
 # Add the application resources URL
-RUN echo "deb http://archive.ubuntu.com/ubuntu/ $(lsb_release -sc) main universe" >> /etc/apt/sources.list
 
 # Update the sources list
 RUN apt-get update
